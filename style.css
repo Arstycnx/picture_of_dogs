@@ -1,0 +1,43 @@
+li{
+    display:inline-block /* แสดงผลให้เป็น inline-block  */
+}
+
+a{
+    border-right: 1px solid black; /* ขีดด้านขวามือ */
+    margin: 10px; /* ความห่างของกรอบนอก 10px */
+    padding-right: 10px; /* ความห่างของกรอบในทางขวามือ 10px */
+}
+#gallery img{
+    width: 300px;/*กำหนดค่าความกว้าง 300px */
+    height:300px;/*กำหนดค่าความสูง 300px */
+    border-right: 4px solid red; /* ขีดด้านขวามือ กำหนดค่า 4px สีแดง */
+    padding: 5px;                  /* ความห่างกรอบใน กำหนดค่า  5px  */
+    background-color:yellow;     /* กำหนดสีพื้นหลังของรูป เป็นสีเหลือง */
+    margin: 20px;                  /* กำหนดความห่างของกรอบนอก 20px*/
+}
+#gallery img:hover{ /* คือการเอาเมาท์ไปชี้ แล้วเกิดชี้แล้วเกิดเหตุอะไรที่เรากำหนด */
+    border-right: 4px solid #ed2298; /*ขีดด้านขวามือ กำหนดค่า 4px สีชมพู */
+    background-color: rgb(0, 183, 255); /* กำหนดสีพื้นหลังของรูป เป็นสีฟ้า */
+}
+
+#register-form button{
+    display:block; /* กำหนดค่าแสดงผลทางหน้าจอเป็นblock*/
+    width: 400px;
+    height:30px;
+    background-color: skyblue;
+    color:white; /* กำหนดค่าของ font เป็นสีขาว*/
+}
+
+#register-form{
+    margin-top: 20px;/* กำหนดค่าความห่างกรอบนอกด้านบน 20px */
+    border-top:5px solid gray; /*ขีดด้านขวามือ กำหนดค่า 5px สีเทา */
+    width: 400px;/*ความกว้าง*/
+
+}
+input{
+    display:block; /*กำหนดค่าแสดงเป็น block ทีละบรรทัด */
+    width:400px;
+    height: 30px;
+    margin-bottom: 5px;
+    box-sizing: border-box; /*ปลี่ยน padding เพื่อให้รวมอยู่ในความกว้าง (width) และสูง (height)*/
+}
